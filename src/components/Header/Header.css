@@ -1,0 +1,37 @@
+.header{
+   display: flex;
+   align-items: center;
+   padding: 30px 36px;
+}
+
+.over{
+   margin: 0;
+   margin-right: auto;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 30px;
+   letter-spacing: 0.3px;
+   color: #252733;
+}
+
+.search{
+   display: inline-block;
+   margin-right: 26px;
+}
+
+.not{
+   display: inline-block;
+   margin-right: 33px;
+}
+
+.user-name{
+   margin: 0;
+   margin-right: 14px;
+   padding-left: 32px;
+   border-left:1px solid #DFE0EB;
+}
+
+.user{
+   border: 1.5px solid #DFE0EB;
+   border-radius: 50%;
+}

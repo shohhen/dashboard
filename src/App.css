@@ -1,0 +1,15 @@
+.wrapper {
+   display: flex;
+}
+
+.left{
+   width: 20%;
+   padding-top: 37px;
+   padding-left: 32px;
+   background-color:#363740;
+}
+
+.right{
+   width: 80%;
+   background-color: #fff;
+}

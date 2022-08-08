@@ -1,0 +1,42 @@
+.tit-list{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0;
+   padding: 0;
+   padding-left: 32px;
+   padding-right: 32px;
+   list-style: none;
+}
+
+.tit-list li img{
+   display: inline-block;
+   margin-right: 9px;
+}
+
+.tit-list li h3{
+   margin-top: 32px;
+   margin-bottom: 48px;
+}
+
+.tit-sort{
+   display: inline-block;
+   margin-right: 34px;
+}
+
+.tit-card{
+   display: flex;
+   align-items: center;
+   margin-left: 30px;
+   margin-bottom: 12px;
+}
+
+.tit-card p{
+   margin: 0;
+   margin-right: 40px;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 18px;
+   letter-spacing: 0.2px;
+   color: #9FA2B4;
+}

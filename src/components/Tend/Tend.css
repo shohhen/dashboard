@@ -1,0 +1,57 @@
+.tend{
+   display: flex;
+   align-items: center;
+   border-top: 1px solid #9FA2B4;
+}
+
+.tend span{
+   margin-right: 6px;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   text-align: right;
+   letter-spacing: 0.3px;
+   color: #4B506D;
+}
+
+.tend span::after{
+   display: inline-block;
+   width: 7px;
+   height: 4px;
+   margin-left: 4px;
+   margin-right: 51px;
+   vertical-align: middle;
+   background-image: url(../../assets/images/btm.svg);
+   background-size: contain;
+   content: "";
+}
+
+.tend-t{
+   margin: 0;
+   margin-right: 8px;
+   margin-left: auto;
+   margin-top: 27px;
+   margin-bottom: 27px;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   letter-spacing: 0.3px;
+   color: #9FA2B4;
+}
+
+.tend-txt{
+   margin: 0;
+   margin-right: 33px;
+   margin-top: 27px;
+   margin-bottom: 27px;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   letter-spacing: 0.3px;
+   color: #9FA2B4;
+}
+
+.tend img {
+   display: inline-block;
+   margin-right: 30px;
+}

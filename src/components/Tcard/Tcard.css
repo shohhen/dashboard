@@ -1,0 +1,72 @@
+.tcard{
+   display: flex;
+   align-items: center;
+   padding-top: 26px;
+   border-top: 1px solid #DFE0EB;
+}
+
+.tcard-user{
+   display: block;
+   margin-left: 30px;
+   margin-right: 24px;
+   border-radius: 50%;
+}
+
+.user-link{
+   width: 372px;
+   margin: 0;
+   margin-right: 10px;
+   margin-bottom: 4px;
+}
+
+.user-link::after{
+   display: block;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 16px;
+   letter-spacing: 0.1px;
+   color: #C5C7CD;
+   content: "Updated 1 day ago";
+}
+
+.user-name{
+   width: 208px;
+   margin: 0;
+   margin-right: 70px;
+   margin-bottom: 4px;
+}
+
+.user-name::after{
+   display: block;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 16px;
+   letter-spacing: 0.1px;
+   color: #C5C7CD;
+   content: "on 24.05.2019";
+}
+
+.time{
+   width: 140px;
+   margin: 0;
+   margin-bottom: 4px;
+   margin-right: 40px;
+}
+
+.time::after{
+   display: block;
+   margin-bottom: 26px;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 16px;
+   letter-spacing: 0.1px;
+   color: #C5C7CD;
+   content: "6:30 PM";
+}
+
+.tcard-btn{
+   margin-right: 110px;
+   padding: 5px 12px;
+   border: none;
+   border-radius: 20px;
+}
